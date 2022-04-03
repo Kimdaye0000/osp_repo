@@ -2,7 +2,7 @@
 
 #a=$(<num1.txt)
 #b=$(<num2.txt)
-
+echo "project management in github"
 arr=(`cat num1.txt` `cat num2.txt`)
 
 PS3='select menu: '
