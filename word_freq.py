@@ -21,5 +21,5 @@ for name in content4:
 pgm_lang_val_reverse = sorted(counts.items(),reverse=True, key=lambda item: item[1]) 
 
 for key, value in pgm_lang_val_reverse[:int(b)]:
-	print(key, value)
+	print("{0:10}".format(key), value)
 file.close() 
