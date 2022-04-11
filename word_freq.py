@@ -19,4 +19,6 @@ for name in content4:
 	else:
 		counts[name] += 1
 print(counts)
+for key in counts:
+    print(key, counts[key])
 file.close() 
