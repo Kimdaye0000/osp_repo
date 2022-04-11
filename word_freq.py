@@ -20,6 +20,6 @@ for name in content4:
 		counts[name] += 1
 pgm_lang_val_reverse = sorted(counts.items(),reverse=True, key=lambda item: item[1]) 
 
-for key, value in pgm_lang_val_reverse[:3]:
+for key, value in pgm_lang_val_reverse[:int(b)]:
 	print(key, value)
 file.close() 
