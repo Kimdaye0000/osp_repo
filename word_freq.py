@@ -16,9 +16,21 @@ content1 = content.replace("?","")
 content2 = content1.replace("!","")
 content3 = content2.replace(".","")
 
-content4=content3.split()
+keys = []
+values = []
+
+#content4=content3.split()
 #print(content1)
 #print(content2)
 #print(content3)
-print(content4)
+#print(content4)
+
+for i in range(1,b):
+	content4=data.split()
+	keys.append(content4[i])
+	values.append(content4[i])
+
+print(keys)
+print(values)
+
 file.close() 
