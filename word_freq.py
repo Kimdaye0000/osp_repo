@@ -18,7 +18,16 @@ for name in content4:
 		counts[name] = 1
 	else:
 		counts[name] += 1
-print(counts)
-for key in counts:
-    print(key, counts[key])
+
+#for key in counts:
+#	print(key, counts[key])
+
+pgm_lang_val_reverse = sorted(counts.items(),reverse=True, key=lambda item: item[1]) 
+
+for key, value in pgm_lang_val_reverse:
+	print(key,  value)
+
+
+
+
 file.close() 
